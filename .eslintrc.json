@@ -1,0 +1,14 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "rules": {
+    "import/prefer-default-export": 0
+  },
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "globals": {
+    "THREE": true,
+    "AFRAME": true
+  }
+}
