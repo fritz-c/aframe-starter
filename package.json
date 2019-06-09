@@ -4,7 +4,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack-dev-server --host 0.0.0.0 --progress --colors --hot-only --inline --port 1234",
+    "start": "webpack-dev-server --host 0.0.0.0 --progress --colors --hot-only --inline --port 1234 --open",
     "build": "cross-env NODE_ENV=production webpack --mode=production",
     "prettier": "prettier --single-quote --trailing-comma es5 --write '**/*.{js,jsx,css,md}' '!{CHANGELOG.md,**/*.min.js,{dist,coverage}/**/*}'",
     "prod-run": "NODE_ENVIRONMENT=production node server.js",
